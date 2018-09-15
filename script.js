@@ -31,3 +31,4 @@ width();
 window.addEventListener("resize", function(event) {
   width();
 });
+
