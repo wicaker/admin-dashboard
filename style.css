@@ -1,0 +1,40 @@
+html{
+  position:relative; 
+  min-height: 100%;
+}
+/*Normalize html and body elements,this style is just good to have*/
+html,body{
+  margin:0;
+  padding:0;
+}
+
+.side-bar{
+	padding: 0px;
+	margin : 0px;
+}
+
+i:hover{
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#side-left{
+	height: 100%;
+}
+
+#right{
+	background-color: #f2f2f2;
+}
+
+.section{
+	min-height: 200px;
+	margin: 10px;
+}
+
+a{
+	color: white;
+}
+
+.card{
+	min-height: 150px;
+}
